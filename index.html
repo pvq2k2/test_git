@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,211 +15,179 @@
     />
   </head>
   <body>
-    <div class="wrapper">
-      <div class="slide_bar container">
-        <div class="slide_bar-img">
-          <img src="./img/avatar_hat.jpg" style="width: 100%" alt="Avatar" />
-          <span>Jane Doe</span>
-        </div>
-        <div class="info container">
-          <div class="job info-item">
-            <i class="fa-solid fa-briefcase"></i>
-            <span>Designer</span>
-          </div>
-          <div class="address info-item">
-            <i class="fa-solid fa-home"></i>
-            <span>London, UK</span>
-          </div>
-          <div class="email info-item">
-            <i class="fa-solid fa-envelope"></i>
-            <span>ex@mail.com</span>
-          </div>
-          <div class="phone info-item">
-            <i class="fa-solid fa-phone"></i>
-            <span>1224435534</span>
-          </div>
-        </div>
-        <div class="skills container">
-          <div class="skill-title title-slide_bar">
-            <i class="fa-solid fa-asterisk"></i>
-            <h3>Skills</h3>
-          </div>
+    <header>
+      <div class="container">
+        <div class="logo"><img src="img/橫式LOGO_工作區域.svg" alt="" /></div>
+        <nav>
+          <ul class="menu_pc">
+            <li class="li_sub">
+              <span class="ttsub"
+                ><img src="img/Circled_Menu.svg" alt="" />服務</span
+              >
+              <ul class="sub_nav" id="sub_nav">
+                <li><img src="img/Bus.svg" alt="" /><span>包車</span></li>
+                <li><img src="img/Beach.svg" alt="" /><span>帆船</span></li>
+                <li><img src="img/Landscape.svg" alt="" /><span>山岳</span></li>
+                <li><img src="img/Pilates.svg" alt="" /><span>瑜珈</span></li>
+              </ul>
+            </li>
+            <li>專欄文章</li>
+            <li class="leng">
+              <i class="fa-solid fa-globe"></i><span>English (US).</span>
+            </li>
+            <!-- <li><img class="leng" src="img/截圖leng.png" alt=""></li> -->
+          </ul>
 
-          <div class="skill-item item-slide_bar">
-            <span>Adobe Photoshop</span>
-            <div class="skill-lv pts">
-              <div class="lv">90%</div>
+
+
+
+          <ul class="menu_mobile">
+            <li class="li_sub" id="li_sub">
+              <span class="ttsub"
+                ><img src="img/Circled_Menu.svg" alt="" />服務</span
+              >
+              <ul class="sub_nav" id="sub_nav">
+                <li><img src="img/Bus.svg" alt="" /><span>包車</span></li>
+                <li><img src="img/Beach.svg" alt="" /><span>帆船</span></li>
+                <li><img src="img/Landscape.svg" alt="" /><span>山岳</span></li>
+                <li><img src="img/Pilates.svg" alt="" /><span>瑜珈</span></li>
+              </ul>
+            </li>
+            <li>專欄文章</li>
+            <li class="leng">
+              <i class="fa-solid fa-globe"></i><span>English (US).</span>
+            </li>
+            <!-- <li><img class="leng" src="img/截圖leng.png" alt=""></li> -->
+          </ul>
+
+
+
+          <div class="user">
+            <img src="img/Profile_1.png" alt="" />
+            <div class="icon_bar">
+              <img src="/img/menu.svg" alt="" />
             </div>
           </div>
-
-          <div class="skill-item item-slide_bar">
-            <span>Photography</span>
-            <div class="skill-lv ptr">
-              <div class="lv">80%</div>
-            </div>
-          </div>
-
-          <div class="skill-item item-slide_bar">
-            <span>Illustrator</span>
-            <div class="skill-lv ai">
-              <div class="lv">75%</div>
-            </div>
-          </div>
-
-          <div class="skill-item item-slide_bar">
-            <span>Media</span>
-            <div class="skill-lv me">
-              <div class="lv">50%</div>
-            </div>
-          </div>
-        </div>
-        <div class="languages container">
-          <div class="languages-title title-slide_bar">
-            <i class="fa-solid fa-earth-americas"></i>
-            <h3>Languages</h3>
-          </div>
-
-          <div class="languages-item item-slide_bar">
-            <span>English</span>
-            <div class="skill-lv eng">
-              <div class="lv"></div>
-            </div>
-          </div>
-
-          <div class="skill-item item-slide_bar">
-            <span>Spanish</span>
-            <div class="skill-lv sh">
-              <div class="lv"></div>
-            </div>
-          </div>
-
-          <div class="skill-item item-slide_bar">
-            <span>German</span>
-            <div class="skill-lv gm">
-              <div class="lv"></div>
-            </div>
-          </div>
-        </div>
+        </nav>
       </div>
-      <div class="main">
-        <div class="work container">
-          <div class="title-main work-title">
-            <i class="fa-solid fa-suitcase"></i>
-            <h2>Work Experience</h2>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="container">
+          <div class="content">
+            <div class="title">
+              <p>誠摯邀你一起成為我們遊山玩水的夥伴</p>
+              <span> 橘子貓帶大家「心靈上享受真正的大自然」</span>
+            </div>
+            <input class="rectangle" placeholder="請輸入您要尋找的活動" />
           </div>
-          <div class="item-main work-item">
-            <h3 class="title-item">Front End Developer / w3schools.com</h3>
-            <div class="date">
-              <i class="fa-solid fa-calendar-days"></i>
-              <div class="date-detail">
-                <span class="start-date">Jan 2015</span> -
-                <span class="end-date active">Current</span>
-              </div>
-            </div>
-            <div class="content">
-              Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in
-              deserunt aspernatur est reprehenderit sunt hic. Nulla tempora
-              soluta ea et odio, unde doloremque repellendus iure, iste.
-            </div>
+          <div class="img">
+            <img src="img/banner_1.svg" alt="" />
           </div>
-
-          <div class="item-main work-item">
-            <h3 class="title-item">Web Developer / something.com</h3>
-            <div class="date">
-              <i class="fa-solid fa-calendar-days"></i>
-              <div class="date-detail">
-                <span class="start-date">Mar 2012</span> -
-                <span class="end-date">Dec 2014</span>
-              </div>
-            </div>
-            <div class="content">
-              Consectetur adipisicing elit. Praesentium magnam consectetur vel
-              in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora
-              soluta ea et odio, unde doloremque repellendus iure, iste.
-            </div>
-          </div>
-
-          <div class="item-main work-item">
-            <h3 class="title-item">Graphic Designer / designsomething.com</h3>
-            <div class="date">
-              <i class="fa-solid fa-calendar-days"></i>
-              <div class="date-detail">
-                <span class="start-date">Jun 2010</span> -
-                <span class="end-date">Mar 2012</span>
-              </div>
-            </div>
-            <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </div>
-          </div>
-
         </div>
-        <div class="edu container">
-          <div class="title-main edu-title">
-            <i class="fa-solid fa-certificate"></i>
-            <h2>Education</h2>
+      </section>
+      <section class="service">
+        <div class="container">
+          <div class="title_service">
+            <span>-點選您要尋找的服務-</span>
           </div>
-
-          <div class="item-main edu-item">
-            <h3 class="title-item">W3Schools.com</h3>
-            <div class="date">
-              <i class="fa-solid fa-calendar-days"></i>
-              <div class="date-detail">Forever</div>
-            </div>
-            <div class="content">
-                Web Development! All I need to know in one place
-            </div>
-          </div>
-
-          <div class="item-main edu-item">
-            <h3 class="title-item">London Business School</h3>
-            <div class="date">
-              <i class="fa-solid fa-calendar-days"></i>
-              <div class="date-detail">
-                <span class="start-date">2013</span> -
-                <span class="end-date">2015</span>
+          <div class="service_row">
+            <div class="service_item">
+              <div class="img">
+                <img src="img/包車_1.svg" alt="" />
+              </div>
+              <div class="title">
+                <span>包車</span>
               </div>
             </div>
-            <div class="content">
-                Master Degree
-            </div>
-          </div>
 
-          <div class="item-main edu-item">
-            <h3 class="title-item">School of Coding</h3>
-            <div class="date">
-              <i class="fa-solid fa-calendar-days"></i>
-              <div class="date-detail">
-                <span class="start-date">2010</span> -
-                <span class="end-date">2013</span>
+            <div class="service_item">
+              <div class="img">
+                <img src="img/帆船_3.svg" alt="" />
+              </div>
+              <div class="title">
+                <span>帆船</span>
               </div>
             </div>
-            <div class="content">
-                Bachelor Degree
+
+            <div class="service_item">
+              <div class="img">
+                <img src="img/山岳_2.svg" alt="" />
+              </div>
+              <div class="title">
+                <span>山岳</span>
+              </div>
+            </div>
+
+            <div class="service_item">
+              <div class="img">
+                <img src="img/瑜珈_4.svg" alt="" />
+              </div>
+              <div class="title">
+                <span>瑜珈</span>
+              </div>
             </div>
           </div>
-
-
+          <div class="show_more">
+            <!-- <img src="img/截圖 2021-04-25 下午3.54 7.png" alt=""> -->
+            <div class="sm">
+                <span>看更多</span> <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
+      <section class="news">
+        <div class="container">
+          <div class="title_news">
+            <span>-最新文章-</span>
+          </div>
+        </div>
+        <img class="row" src="img/截圖 2021-04-15 下午2.50 1.png" alt="" />
+        <div class="show_more">
+          <!-- <img src="img/截圖 2021-04-25 下午3.54 7.png" alt="" /> -->
+          <div class="sm">
+            <span>看更多</span> <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        </div>
+      </section>
+      <section class="sub_banner">
+        <img class="img1" src="/img/影片區.png" alt="" />
+        <img class="img2" src="/img/image 6.png" alt="" />
+      </section>
+    </main>
     <footer>
-        <div class="footer-content">
-            <p class="social-title">
-                Find me on social media.
-            </p>
-            <div class="social-icon">
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-snapchat"></i>
-                <i class="fa-brands fa-pinterest-p"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin"></i>
-            </div>
-                <span class="copyright">
-                    Powered by <a href="#">w3.css</a>
-                </span>
+      <div class="container">
+        <div class="info">
+          <div class="logo">
+            <img src="img/白字_橫式LOGO_工作區域2.png" alt="" />
+          </div>
+          <ul class="iful">
+            <li>真心國際旅行社有限公司(橘子貓TTtrips)</li>
+            <li>甲種旅行社 統一編號 47072308</li>
+          </ul>
+
+          <ul class="contact">
+            <li>服務據點：116 台北市文山區羅斯福路6段107號</li>
+            <li>電話：0919266232 傳真：02-29343589</li>
+            <li>客服信箱 : service@tttrips.com</li>
+          </ul>
         </div>
+        <div class="ft2">
+          <div class="btn">
+            <button>出團總表</button>
+            <button>聯絡我們</button>
+          </div>
+
+          <div class="payment">
+            <img src="img/截圖 2021-04-25 下午12.51 1.png" alt="" />
+          </div>
+
+          <div class="copyright">
+            <span>Copyright © 2021 TTtrips. All rights reserved.</span>
+          </div>
+        </div>
+      </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
