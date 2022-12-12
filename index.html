@@ -1,193 +1,270 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="logo"><img src="img/橫式LOGO_工作區域.svg" alt="" /></div>
-        <nav>
-          <ul class="menu_pc">
-            <li class="li_sub">
-              <span class="ttsub"
-                ><img src="img/Circled_Menu.svg" alt="" />服務</span
-              >
-              <ul class="sub_nav" id="sub_nav">
-                <li><img src="img/Bus.svg" alt="" /><span>包車</span></li>
-                <li><img src="img/Beach.svg" alt="" /><span>帆船</span></li>
-                <li><img src="img/Landscape.svg" alt="" /><span>山岳</span></li>
-                <li><img src="img/Pilates.svg" alt="" /><span>瑜珈</span></li>
-              </ul>
-            </li>
-            <li>專欄文章</li>
-            <li class="leng">
-              <i class="fa-solid fa-globe"></i><span>English (US).</span>
-            </li>
-            <!-- <li><img class="leng" src="img/截圖leng.png" alt=""></li> -->
-          </ul>
-
-
-
-
-          <ul class="menu_mobile">
-            <li class="li_sub" id="li_sub">
-              <span class="ttsub"
-                ><img src="img/Circled_Menu.svg" alt="" />服務</span
-              >
-              <ul class="sub_nav" id="sub_nav">
-                <li><img src="img/Bus.svg" alt="" /><span>包車</span></li>
-                <li><img src="img/Beach.svg" alt="" /><span>帆船</span></li>
-                <li><img src="img/Landscape.svg" alt="" /><span>山岳</span></li>
-                <li><img src="img/Pilates.svg" alt="" /><span>瑜珈</span></li>
-              </ul>
-            </li>
-            <li>專欄文章</li>
-            <li class="leng">
-              <i class="fa-solid fa-globe"></i><span>English (US).</span>
-            </li>
-            <!-- <li><img class="leng" src="img/截圖leng.png" alt=""></li> -->
-          </ul>
-
-
-
-          <div class="user">
-            <img src="img/Profile_1.png" alt="" />
-            <div class="icon_bar">
-              <img src="/img/menu.svg" alt="" />
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section class="banner">
-        <div class="container">
-          <div class="content">
-            <div class="title">
-              <p>誠摯邀你一起成為我們遊山玩水的夥伴</p>
-              <span> 橘子貓帶大家「心靈上享受真正的大自然」</span>
-            </div>
-            <input class="rectangle" placeholder="請輸入您要尋找的活動" />
-          </div>
-          <div class="img">
-            <img src="img/banner_1.svg" alt="" />
-          </div>
-        </div>
-      </section>
-      <section class="service">
-        <div class="container">
-          <div class="title_service">
-            <span>-點選您要尋找的服務-</span>
-          </div>
-          <div class="service_row">
-            <div class="service_item">
-              <div class="img">
-                <img src="img/包車_1.svg" alt="" />
-              </div>
-              <div class="title">
-                <span>包車</span>
-              </div>
-            </div>
-
-            <div class="service_item">
-              <div class="img">
-                <img src="img/帆船_3.svg" alt="" />
-              </div>
-              <div class="title">
-                <span>帆船</span>
-              </div>
-            </div>
-
-            <div class="service_item">
-              <div class="img">
-                <img src="img/山岳_2.svg" alt="" />
-              </div>
-              <div class="title">
-                <span>山岳</span>
-              </div>
-            </div>
-
-            <div class="service_item">
-              <div class="img">
-                <img src="img/瑜珈_4.svg" alt="" />
-              </div>
-              <div class="title">
-                <span>瑜珈</span>
-              </div>
-            </div>
-          </div>
-          <div class="show_more">
-            <!-- <img src="img/截圖 2021-04-25 下午3.54 7.png" alt=""> -->
-            <div class="sm">
-                <span>看更多</span> <i class="fa-solid fa-chevron-down"></i>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="news">
-        <div class="container">
-          <div class="title_news">
-            <span>-最新文章-</span>
-          </div>
-        </div>
-        <img class="row" src="img/截圖 2021-04-15 下午2.50 1.png" alt="" />
-        <div class="show_more">
-          <!-- <img src="img/截圖 2021-04-25 下午3.54 7.png" alt="" /> -->
-          <div class="sm">
-            <span>看更多</span> <i class="fa-solid fa-chevron-down"></i>
-        </div>
-        </div>
-      </section>
-      <section class="sub_banner">
-        <img class="img1" src="/img/影片區.png" alt="" />
-        <img class="img2" src="/img/image 6.png" alt="" />
-      </section>
-    </main>
-    <footer>
-      <div class="container">
-        <div class="info">
+    <div class="wrapper">
+      <header>
+        <div class="header_left">
           <div class="logo">
-            <img src="img/白字_橫式LOGO_工作區域2.png" alt="" />
+            <img src="img/logo_colored_sign_black_text.svg" alt="" />
           </div>
-          <ul class="iful">
-            <li>真心國際旅行社有限公司(橘子貓TTtrips)</li>
-            <li>甲種旅行社 統一編號 47072308</li>
-          </ul>
-
-          <ul class="contact">
-            <li>服務據點：116 台北市文山區羅斯福路6段107號</li>
-            <li>電話：0919266232 傳真：02-29343589</li>
-            <li>客服信箱 : service@tttrips.com</li>
+          <ul class="nav">
+            <li>Our team</li>
+            <li>Tokens</li>
+            <li>Connect wallet</li>
+            <li>Lightpaper</li>
           </ul>
         </div>
-        <div class="ft2">
-          <div class="btn">
-            <button>出團總表</button>
-            <button>聯絡我們</button>
+        <div class="header_right">
+          <div class="user">
+            <a href="#">Sign in</a>
+            <a href="#" class="signup">Sign up</a>
           </div>
-
-          <div class="payment">
-            <img src="img/截圖 2021-04-25 下午12.51 1.png" alt="" />
-          </div>
-
-          <div class="copyright">
-            <span>Copyright © 2021 TTtrips. All rights reserved.</span>
+          <div class="nav_bar">
+            <img src="img/menu-ic.svg" alt="" />
           </div>
         </div>
-      </div>
-    </footer>
-    <script src="index.js"></script>
+      </header>
+      <main>
+        <section class="chart">
+          <div class="container">
+            <div class="title_chart">
+              <h3>Tknrs Tokenomics and Token Distribution</h3>
+            </div>
+
+            <div class="box">
+            <div class="chart_tokens">
+              <img src="img/Mask Group.svg" alt="" />
+              <div class="blur"></div>
+            </div>
+            <div class="data">
+              <div class="data_item data_1">
+                <p>Tknrs Token Distribution Schedule Total Supply:</p>
+                <h3>10,000,000,000</h3>
+                <span>Tknrs Tokens</span>
+              </div>
+              <div class="data_item data_2">
+                <p>Premined Tokens</p>
+                <h3>3,000,000,000</h3>
+                <span>Tknrs Tokens</span>
+              </div>
+              <div class="data_item data_3">
+                <p>Daily Token Distribution</p>
+                <h3>7,000,000,000</h3>
+                <span>Tknrs Tokens</span>
+              </div>
+            </div>
+        </div>
+
+          </div>
+        </section>
+
+        <section class="tokens_date">
+          <div class="container">
+            <div class="token_item">
+              <div class="tag green">
+                <div class="icon">
+                  <img src="img/Ellipse 18.svg" alt="" />
+                </div>
+                <div class="name">Year 1</div>
+              </div>
+
+              <div class="title">
+                <h4>Day 1 - Day 90</h4>
+              </div>
+              <div class="content">
+                <p class="token_day">10M Tokens/Day</p>
+                <p class="amount">(900M Tokens)</p>
+              </div>
+            </div>
+
+            <div class="token_item">
+              <div class="tag yellow">
+                <div class="icon">
+                  <img src="img/Ellipse 18.svg" alt="" />
+                </div>
+                <div class="name">Year 1</div>
+              </div>
+              <div class="title">
+                <h4>Day 90 - Day 365</h4>
+              </div>
+              <div class="content">
+                <p class="token_day">5M Tokens/Day</p>
+                <p class="amount">(1375M Tokens)</p>
+              </div>
+            </div>
+
+            <div class="token_item">
+              <div class="tag blue">
+                <div class="icon">
+                  <img src="img/Ellipse 18.svg" alt="" />
+                </div>
+                <div class="name">Year 2</div>
+              </div>
+
+              <div class="title">
+                <h4></h4>
+              </div>
+              <div class="content">
+                <p class="token_day">4M Tokens/Day</p>
+                <p class="amount">(1460M Tokens)</p>
+              </div>
+            </div>
+
+            <div class="token_item">
+              <div class="tag red">
+                <div class="icon">
+                  <img src="img/Ellipse 18.svg" alt="" />
+                </div>
+                <div class="name">Year 3</div>
+              </div>
+
+              <div class="title">
+                <h4></h4>
+              </div>
+              <div class="content">
+                <p class="token_day">3M Tokens/Day</p>
+                <p class="amount">(1095M Tokens)</p>
+              </div>
+            </div>
+
+            <div class="token_item">
+              <div class="tag green">
+                <div class="icon">
+                  <img src="img/Ellipse 18.svg" alt="" />
+                </div>
+                <div class="name">Year 4</div>
+              </div>
+              <div class="title">
+                <h4></h4>
+              </div>
+              <div class="content">
+                <p class="token_day">2M Tokens/Day</p>
+                <p class="amount">(730M Tokens)</p>
+              </div>
+            </div>
+
+            <div class="token_item">
+              <div class="tag green">
+                <div class="icon">
+                  <img src="img/Ellipse 18.svg" alt="" />
+                </div>
+                <div class="name">Year 5</div>
+              </div>
+
+              <div class="title">
+                <h4></h4>
+              </div>
+              <div class="content">
+                <p class="token_day">1M Tokens/Day</p>
+                <p class="amount">(365M Tokens)</p>
+              </div>
+            </div>
+
+            <div class="token_item">
+              <div class="tag blue">
+                <div class="icon">
+                  <img src="img/Ellipse 18.svg" alt="" />
+                </div>
+                <div class="name">Year 6</div>
+              </div>
+
+              <div class="title">
+                <h4></h4>
+              </div>
+              <div class="content">
+                <p class="token_day">1M Tokens/Day</p>
+                <p class="amount">(365M Tokens)</p>
+              </div>
+            </div>
+
+            <div class="token_item">
+              <div class="tag red">
+                <div class="icon">
+                  <img src="img/Ellipse 18.svg" alt="" />
+                </div>
+                <div class="name">Year 7</div>
+              </div>
+
+              <div class="title">
+                <h4></h4>
+              </div>
+              <div class="content">
+                <p class="token_day">1M Tokens/Day</p>
+                <p class="amount">(365M Tokens)</p>
+              </div>
+            </div>
+
+            <div class="token_item">
+              <div class="tag green">
+                <div class="icon">
+                  <img src="img/Ellipse 18.svg" alt="" />
+                </div>
+                <div class="name">Year 8</div>
+              </div>
+
+              <div class="title">
+                <h4></h4>
+              </div>
+              <div class="content">
+                <p class="token_day">1M Tokens/Day</p>
+                <p class="amount">(365M Tokens)</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="detail">
+            <div class="bg"><img src="img/Group 37.svg" alt=""><img class="img2" src="img/Group 37.svg" alt=""><img class="img3" src="img/Group 37.svg" alt=""></div>
+            <div class="container">
+                <div class="content">
+                    <div class="item_1">
+                        <h2>Proposal regarding Total Supply, ICO and Pricing Total Supply (after periodical increase of supply):</h2>
+                        <p class="quantity">10,000,000,000</p>
+                        <span>Tokens</span>
+                    </div>
+
+                    <div class="item_2">
+                        <h2>Supply at Genesis:</h2>
+                        <p class="quantity">3,000,000,000</p>
+                        <span>Tokens</span>
+                        <p class="tt">from the Genesis supply, 2,500,000,000 will be reserved for the ICO while 500,000,000 will be allocated for team members, founders and to onboard celebrities and influencers. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="container">
+            <ul class="nav_footer">
+                <li><a href="#">Our team</a></li>
+                <li><a href="#">Tokens</a></li>
+                <li><a href="#">Connect wallet</a></li>
+                <li><a href="#">Lightpaper</a></li>
+            </ul>
+            <div class="footer_bottom">
+                <div class="logo"><img src="img/logo_colored_sign_black_text.svg" alt=""></div>
+                <div class="social"><img src="img/Group 23.png" alt=""></div>
+                <div class="copyright">
+                    <span>© 2021 Tokners. All rights reserved.</span>
+                    <div class="design">
+                        <img src="img/Vector.svg" alt="">
+                        <span class="by">
+                            Design by Oleg Kulik
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
